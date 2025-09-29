@@ -35,7 +35,7 @@ function init() {
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
   });
 
-  getWeatherByCity('New York');
+  getWeatherByCity('delhi');
 }
 
 function setCurrentDate() {
